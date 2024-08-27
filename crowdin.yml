@@ -1,0 +1,15 @@
+#project_id_env: CROWDIN_PROJECT_ID
+#api_token_env: CROWDIN_PERSONAL_TOKEN
+project_id: 683600
+api_token: b303b3c301d87e76dee1e4a473e8b76837bdde68b21fc9325accc13bbeb9e53de6ae2fa579bd4cb5
+preserve_hierarchy: true
+files:
+  # JSON translation files
+  - source: /i18n/en/**/*
+    translation: /i18n/%two_letters_code%/**/%original_file_name%
+  # Docs Markdown files
+  - source: /docs/**/*
+    translation: /i18n/%two_letters_code%/docusaurus-plugin-content-docs/current/**/%original_file_name%
+  # Blog Markdown files
+  - source: /changelog/**/*
+    translation: /i18n/%two_letters_code%/docusaurus-plugin-content-blog-changelog/**/%original_file_name%
