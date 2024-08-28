@@ -1,7 +1,5 @@
-#project_id_env: CROWDIN_PROJECT_ID
-#api_token_env: CROWDIN_PERSONAL_TOKEN
 project_id: 683600
-api_token: b303b3c301d87e76dee1e4a473e8b76837bdde68b21fc9325accc13bbeb9e53de6ae2fa579bd4cb5
+api_token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 preserve_hierarchy: true
 files:
   # JSON translation files
